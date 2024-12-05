@@ -19,7 +19,7 @@ if (navigator.appVersion.indexOf("Win") != -1) {
   OSName = "Linux";
 }
 
-alert("Your OS is " + OSName + "\nYour Browser is " + navigator.appName );
+alert("Your OS is " + navigator.userAgentData.platform + "\nYour Browser is " + navigator.appVersion + "Your dimensions are: "+ screen.width + "x" + screen.height);
     </script>
 </body>
 </html>
